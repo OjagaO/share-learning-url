@@ -1,0 +1,64 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(206, 199, 195);
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5vw;
+    container-type: inline-size;
+    height: 100%;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding-bottom: 2px;
+}
+nav a:first-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+@container (max-width: 370px) {
+    span {
+        display: none;
+    }
+}
+
+nav a:hover {
+    border-bottom: solid 2px;
+    padding-bottom: 0;
+}
+nav a:first-child:hover {
+    border-bottom: none;
+}
+
+svg {
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 95%;
+        margin-right: 5%;
+    }
+}
+.inputPost p {
+    margin-bottom: 8px;
+}

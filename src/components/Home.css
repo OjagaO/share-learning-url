@@ -1,0 +1,32 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 60px);
+    height: calc(100svh - 60px);
+    background: radial-gradient(circle, rgb(2 0 255) 0%, rgb(109 255 240) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.article_card {
+    border-radius: 15px;
+    background: rgb(255 255 255 / 30%);
+    padding: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+@media screen and (max-width: 1024px) {
+    .article_card {
+        padding: clamp(20px,5vw,40px);
+        width: 95%;
+        margin: 16px auto;
+    }
+}
+.deleteBtn {
+    display: flex;
+    justify-content: space-between;
+}
