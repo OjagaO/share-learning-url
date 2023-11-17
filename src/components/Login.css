@@ -1,7 +1,8 @@
 .login {
     width: 100%;
-    height: calc(100vh - 60px);
-    height: calc(100svh - 60px);
+    height: auto;
+    padding-top: 100px;
+    min-height: 100vh;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
@@ -11,7 +12,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(255 255 255 / 30%);
+    background: rgb(255 255 255 / 70%);
     max-width: 32em;
     width: 95%;
     height: 15em;
@@ -30,9 +31,8 @@
 .login_box p {
     font-size: 1.65rem;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
-    text-shadow: 1px 1px 0 #c3c3c3, -1px -1px 0 #c3c3c3, -1px 1px 0 #c3c3c3, 1px -1px 0 #c3c3c3, 0px 1px 0 #c3c3c3, 0-1px 0 #c3c3c3, -1px 0 0 #c3c3c3, 1px 0 0 #c3c3c3;
 }
 
 .login_box button {

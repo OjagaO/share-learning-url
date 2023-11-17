@@ -12,9 +12,9 @@ const Navbar = ({ isAuth }) => {
     return (
         <div className="navbar">
             <nav>
-                <Link to="/"><img src="./images/KakuKiji.png" alt="" /></Link>
-                <Link to="/CreatePost">{pen}<span>記事投稿</span></Link>
-                {!isAuth ? <Link to="/Login">{closeDoor}<span>ログイン</span></Link> : <Link to="/Logout">{openDoor}<span>ログアウト</span></Link>}
+                <Link to="/" className="nav_link"><img src="./images/KakuKiji.png" alt="" /></Link>
+                <Link to="/CreatePost" className="nav_link">{pen}<span>参考URL投稿</span></Link>
+                {isAuth ? <Link to="/Logout" className="nav_link">{openDoor}<span>ログアウト</span></Link> : <Link to="/Login" className="nav_link">{closeDoor}<span>ログイン</span></Link>}
             </nav>
         </div>
     );

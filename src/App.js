@@ -9,7 +9,9 @@ import Navbar from './components/parts/Navbar';
 
 function App() {
 
-  const [ isAuth , setIsAuth ] = useState(false);
+  const storedIsAuth = localStorage.getItem("isAuth");
+
+  const [isAuth, setIsAuth] = useState(storedIsAuth === "true");
 
   return (
     <Router>

@@ -11,6 +11,15 @@ const firebaseConfig = {
   appId: "1:1076435976220:web:895fb1e730a870b48a1fd9"
 };
 
+// const firebaseConfig = {
+//   apiKey:process.env.REACT_APP_API_KEY,
+//   authDomain:process.env.REACT_APP_API_DOMAIN,
+//   projectId:process.env.REACT_APP_API_PROJECT_ID,
+//   storageBucket:process.env.REACT_APP_API_STORAGE,
+//   messagingSenderId:process.env.REACT_APP_API_SENDER_ID,
+//   appId:process.env.REACT_APP_API_APP_ID,
+// };
+
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();

@@ -1,23 +1,41 @@
 .home {
     width: 100%;
-    height: calc(100vh - 60px);
-    height: calc(100svh - 60px);
     background: radial-gradient(circle, rgb(2 0 255) 0%, rgb(109 255 240) 100%);
     display: flex;
+    background-attachment: fixed;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    height: auto;
+    padding-top: 100px;
+    min-height: 100vh;
 }
 
 .article_card {
     border-radius: 15px;
-    background: rgb(255 255 255 / 30%);
+    background: rgb(255 255 255 / 70%);
     padding: 40px;
     width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 16px;
     margin-bottom: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.user_name {
+    font-size: 14px;
+}
+.user_name span {
+    font-size: 12px;
+}
+
+.deleteBtn button {
+    padding: 6px 12px;
+    border: solid 1px black;
+    background: transparent;
 }
 @media screen and (max-width: 1024px) {
     .article_card {
