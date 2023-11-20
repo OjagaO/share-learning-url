@@ -1,7 +1,7 @@
 .logout {
     width: 100%;
     height: auto;
-    padding-top: 100px;
+    padding-top: 60px;
     min-height: 100vh;
     background: radial-gradient(circle, rgba(141, 139, 226, 1) 0%, rgba(253, 187, 203, 1) 100%);
 }
@@ -39,7 +39,7 @@
     font-size: 1.1em;
     border-radius: 24px;
     padding: 8px;
-    box-shadow: 3px 3px 0px 0px rgba(255, 255, 255, 0.6);
+    box-shadow: 3px 3px 0px 0px rgb(65 62 62 / 60%);
     background: linear-gradient(45deg, rgb(160, 160, 160), rgb(190, 190, 190), 255, 35%, rgb(230, 230, 230) 100%);
     border: none;
 }
@@ -54,7 +54,7 @@
         font-size: 1.1em;
         border-radius: 24px;
         padding: 8px;
-        box-shadow: 3px 3px 0px 0px rgba(255, 255, 255, 0.6);
+        box-shadow: 3px 3px 0px 0px rgb(65 62 62 / 60%);
         transition: 0.2s;
         background: linear-gradient(45deg, rgb(160, 160, 160), rgb(190, 190, 190), 255, 35%, rgb(230, 230, 230) 100%);
     }
