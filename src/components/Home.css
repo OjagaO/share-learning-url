@@ -1,6 +1,6 @@
 .home {
     width: 100%;
-    background: radial-gradient(circle, rgb(2 0 255) 0%, rgb(109 255 240) 100%);
+    background: radial-gradient(circle, rgb(181 118 255) 0%, rgb(109 255 240) 100%);
     display: flex;
     background-attachment: fixed;
     align-items: center;
