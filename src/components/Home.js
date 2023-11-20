@@ -29,8 +29,8 @@ const Home = () => {
             <div className="article_area">
                 {postList.map((post) => {
                     return (
-                        <Link to={post.postUrl} key={post.id} className="article_card" target="_blank">
-                            <h2>{post.postTitle}</h2>
+                        <div key={post.id} className="article_card">
+                            <Link to={post.postUrl} target="_blank">{post.postTitle}</Link>
                             <p>{post.postContent}</p>
                             <div className="deleteBtn">
                                 <p className="user_name">
@@ -38,7 +38,7 @@ const Home = () => {
                                 </p>
                                 {auth.currentUser && post.author.id === auth.currentUser.uid && <button onClick={() => handleDelete(post.id)}>削除</button>}
                             </div>
-                        </Link>
+                        </div>
                     );
                 })}
             </div>

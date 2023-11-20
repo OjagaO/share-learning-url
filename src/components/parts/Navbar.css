@@ -94,19 +94,19 @@ svg {
     display: block;
     cursor: pointer;
 }
-.theme-switch__label::before {
-    content: "☀️";
+/* .theme-switch__label::before {
+    content: "☼";
     right: 100%;
-    margin-right: 10px;
+    margin-right: 4px;
     color: orange;
     position: absolute;
-    bottom: -7px;
+    bottom: 0px;
     font-size: 30px;
-}
+} */
 .theme-switch__label::after {
     content: "☾";
     left: 100%;
-    margin-left: 10px;
+    margin-left: 8px;
     color: lightSlateGray;
     position: absolute;
     bottom: -1px;
